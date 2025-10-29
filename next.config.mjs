@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+
+  basePath: '/amplify.app',
+  assetPrefix: '/amplify.app',
 }
 
 export default nextConfig

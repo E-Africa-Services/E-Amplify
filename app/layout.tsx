@@ -13,8 +13,29 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "E-Amplify - Find Purpose. Share Knowledge. Earn with Impact.",
-  description: "Connect instantly for mentorship, collaboration, and earning opportunities. Amplify what matters.",
+  title: "E-Africa Services",
+  description: "Delivering innovative digital solutions across Africa.",
+  metadataBase: new URL("https://www.eafricaservices.com/amplify.app"),
+  openGraph: {
+    type: "website",
+    url: "https://www.eafricaservices.com/amplify.app",
+    title: "E-Africa Services",
+    description: "Delivering innovative digital solutions across Africa.",
+    images: [
+      {
+        url: "https://www.eafricaservices.com/amplify.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "E-Africa Services",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "E-Africa Services",
+    description: "Delivering innovative digital solutions across Africa.",
+    images: ["https://www.eafricaservices.com/amplify.app/og-image.png"],
+  },
   generator: "v0.app",
 }
 
